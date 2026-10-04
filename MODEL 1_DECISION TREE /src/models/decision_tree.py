@@ -1,0 +1,8 @@
+# Step 9: Train the Decision Tree Classifier
+
+dt_model = DecisionTreeClassifier(
+    max_depth=8,
+    random_state=42
+)
+
+dt_model.fit(X_train, y_train)
